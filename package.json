@@ -1,5 +1,6 @@
 {
   "name": "dauntless-api",
+  "homepage": "https://kevin-martins.github.io/dauntless-api",
   "version": "0.0.1",
   "description": "",
   "author": "",
@@ -7,6 +8,8 @@
   "license": "UNLICENSED",
   "scripts": {
     "build": "nest build",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",
     "start:dev": "nest start --watch",
