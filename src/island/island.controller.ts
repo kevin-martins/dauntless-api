@@ -1,7 +1,6 @@
 import { Controller } from "@nestjs/common";
 import { Get, Query } from "@nestjs/common/decorators";
 import { IslandService } from "./island.service";
-import { GatherableRarity, GatherableType } from "src/gatherable/dto/gatherable.dto";
 
 @Controller("island")
 export class IslandController {
