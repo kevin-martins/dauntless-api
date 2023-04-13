@@ -1,0 +1,1215 @@
+[
+    {
+        "name": "Lesser Gnasher",
+        "element": "Neutral",
+        "location": [
+            "Boreal Outpost",
+            "Revelation Rock"
+        ],
+        "variants": [
+            "Lesser Gnasher",
+            "Gnasher",
+            "Ragetail Gnasher",
+            "Ragetail Gnasher (Heroic)",
+            "Flameborn Gnasher",
+            "Deepfrost Gnasher"
+        ],
+        "body_parts": [
+            "Head",
+            "Leg",
+            "Tail"
+        ],
+        "drops": [
+            {
+                "name": "Gnasher Hide",
+                "body_part": null,
+                "form": "Normal",
+                "rate": 100,
+                "quantity": {
+                    "min": 5,
+                    "max": 9
+                }
+            },
+            {
+                "name": "Rams",
+                "body_part": null,
+                "form": "Normal",
+                "rate": 100,
+                "quantity": {
+                    "min": 130,
+                    "max": null
+                }
+            },
+            {
+                "name": "Ragetooth",
+                "body_part": "Head",
+                "form": "Normal",
+                "rate": 20,
+                "quantity": {
+                    "min": 1,
+                    "max": null
+                }
+            },
+            {
+                "name": "Gnasher Shinplate",
+                "body_part": "Leg",
+                "form": "Normal",
+                "rate": 20,
+                "quantity": {
+                    "min": 1,
+                    "max": 2
+                }
+            },
+            {
+                "name": "Sharpened Slapper",
+                "body_part": "Tail",
+                "form": "Normal",
+                "rate": 20,
+                "quantity": {
+                    "min": 1,
+                    "max": null
+                }
+            }
+        ]
+    },
+    {
+        "name": "Gnasher",
+        "element": "Neutral",
+        "location": [
+            "Revelation Rock",
+            "Iron Falls",
+            "Aulric's Peak"
+        ],
+        "variants": [
+            "Lesser Gnasher",
+            "Gnasher",
+            "Ragetail Gnasher",
+            "Ragetail Gnasher (Heroic)",
+            "Flameborn Gnasher",
+            "Deepfrost Gnasher"
+        ],
+        "body_parts": [
+            "Head",
+            "Leg",
+            "Tail"
+        ],
+        "drops": [
+            {
+                "name": "Gnasher Hide",
+                "body_part": null,
+                "form": "Normal",
+                "rate": 100,
+                "quantity": {
+                    "min": 5,
+                    "max": 9
+                }
+            },
+            {
+                "name": "Rams",
+                "body_part": null,
+                "form": "Normal",
+                "rate": 100,
+                "quantity": {
+                    "min": 130,
+                    "max": null
+                }
+            },
+            {
+                "name": "Ragetooth",
+                "body_part": "Head",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": null
+                }
+            },
+            {
+                "name": "Gnasher Shinplate",
+                "body_part": "Leg",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": 2
+                }
+            },
+            {
+                "name": "Sharpened Slapper",
+                "body_part": "Tail",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": null
+                }
+            }
+        ]
+    },
+    {
+        "name": "Ragetail Gnasher",
+        "element": "Neutral",
+        "location": [
+            "Aulric's Peak",
+            "Conundrum Rocks"
+        ],
+        "variants": [
+            "Lesser Gnasher",
+            "Gnasher",
+            "Ragetail Gnasher",
+            "Ragetail Gnasher (Heroic)",
+            "Flameborn Gnasher",
+            "Deepfrost Gnasher"
+        ],
+        "body_parts": [
+            "Head",
+            "Leg",
+            "Tail"
+        ],
+        "drops": [
+            {
+                "name": "Gnasher Hide",
+                "body_part": null,
+                "form": "Normal",
+                "rate": 100,
+                "quantity": {
+                    "min": 5,
+                    "max": 9
+                }
+            },
+            {
+                "name": "Rams",
+                "body_part": null,
+                "form": "Normal",
+                "rate": 100,
+                "quantity": {
+                    "min": 230,
+                    "max": null
+                }
+            },
+            {
+                "name": "Ragetooth",
+                "body_part": "Head",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": null
+                }
+            },
+            {
+                "name": "Gnasher Shinplate",
+                "body_part": "Leg",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": 2
+                }
+            },
+            {
+                "name": "Sharpened Slapper",
+                "body_part": "Tail",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": null
+                }
+            }
+        ]
+    },
+    {
+        "name": "Ragetail Gnasher (Heroic)",
+        "element": "Neutral",
+        "location": [
+            "Coldrunner Key"
+        ],
+        "variants": [
+            "Lesser Gnasher",
+            "Gnasher",
+            "Ragetail Gnasher",
+            "Ragetail Gnasher (Heroic)",
+            "Flameborn Gnasher",
+            "Deepfrost Gnasher"
+        ],
+        "body_parts": [
+            "Head",
+            "Leg",
+            "Tail"
+        ],
+        "drops": [
+            {
+                "name": "Gnasher Hide",
+                "body_part": null,
+                "form": "Normal",
+                "rate": 100,
+                "quantity": {
+                    "min": 5,
+                    "max": 9
+                }
+            },
+            {
+                "name": "Rams",
+                "body_part": null,
+                "form": "Normal",
+                "rate": 100,
+                "quantity": {
+                    "min": 330,
+                    "max": null
+                }
+            },
+            {
+                "name": "Furious Ragescale",
+                "body_part": null,
+                "form": "Normal",
+                "rate": 100,
+                "quantity": {
+                    "min": 5,
+                    "max": 9
+                }
+            },
+            {
+                "name": "Ragesoul Shard",
+                "body_part": null,
+                "form": "Normal",
+                "rate": 100,
+                "quantity": {
+                    "min": 5,
+                    "max": 9
+                }
+            },
+            {
+                "name": "Ragetooth",
+                "body_part": "Head",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": null
+                }
+            },
+            {
+                "name": "Gnasher Shinplate",
+                "body_part": "Leg",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": 2
+                }
+            },
+            {
+                "name": "Sharpened Slapper",
+                "body_part": "Tail",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": null
+                }
+            },
+            {
+                "name": "Rumour: Grievance Dye",
+                "body_part": "Tail",
+                "form": "Enraged",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": null
+                }
+            }
+        ]
+    },
+    {
+        "name": "Flameborn Gnasher",
+        "element": "Blaze",
+        "location": [
+            "Thunderwatch"
+        ],
+        "variants": [
+            "Lesser Gnasher",
+            "Gnasher",
+            "Ragetail Gnasher",
+            "Ragetail Gnasher (Heroic)",
+            "Flameborn Gnasher",
+            "Deepfrost Gnasher"
+        ],
+        "body_parts": [
+            "Head",
+            "Leg",
+            "Tail"
+        ],
+        "drops": [
+            {
+                "name": "Gnasher Hide",
+                "body_part": null,
+                "form": "Normal",
+                "rate": 100,
+                "quantity": {
+                    "min": 5,
+                    "max": 9
+                }
+            },
+            {
+                "name": "Rams",
+                "body_part": null,
+                "form": "Normal",
+                "rate": 100,
+                "quantity": {
+                    "min": 245,
+                    "max": null
+                }
+            },
+            {
+                "name": "Furious Ragescale",
+                "body_part": null,
+                "form": "Normal",
+                "rate": 100,
+                "quantity": {
+                    "min": 5,
+                    "max": 9
+                }
+            },
+            {
+                "name": "Ragesoul Shard",
+                "body_part": null,
+                "form": "Normal",
+                "rate": 100,
+                "quantity": {
+                    "min": 5,
+                    "max": 9
+                }
+            },
+            {
+                "name": "Ragetooth",
+                "body_part": "Head",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": null
+                }
+            },
+            {
+                "name": "Gnasher Shinplate",
+                "body_part": "Leg",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": 2
+                }
+            },
+            {
+                "name": "Sharpened Slapper",
+                "body_part": "Tail",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": null
+                }
+            }
+        ]
+    },
+    {
+        "name": "Deepfrost Gnasher",
+        "element": "Frost",
+        "location": [
+            "Frostmarch",
+            "The Snowblind Waste"
+        ],
+        "variants": [
+            "Lesser Gnasher",
+            "Gnasher",
+            "Ragetail Gnasher",
+            "Ragetail Gnasher (Heroic)",
+            "Flameborn Gnasher",
+            "Deepfrost Gnasher"
+        ],
+        "body_parts": [
+            "Head",
+            "Leg",
+            "Tail"
+        ],
+        "drops": [
+            {
+                "name": "Gnasher Hide",
+                "body_part": null,
+                "form": "Normal",
+                "rate": 100,
+                "quantity": {
+                    "min": 5,
+                    "max": 9
+                }
+            },
+            {
+                "name": "Rams",
+                "body_part": null,
+                "form": "Normal",
+                "rate": 100,
+                "quantity": {
+                    "min": 330,
+                    "max": null
+                }
+            },
+            {
+                "name": "Furious Ragescale",
+                "body_part": null,
+                "form": "Normal",
+                "rate": 100,
+                "quantity": {
+                    "min": 5,
+                    "max": 9
+                }
+            },
+            {
+                "name": "Ragesoul Shard",
+                "body_part": null,
+                "form": "Normal",
+                "rate": 100,
+                "quantity": {
+                    "min": 5,
+                    "max": 9
+                }
+            },
+            {
+                "name": "Ragetooth",
+                "body_part": "Head",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": null
+                }
+            },
+            {
+                "name": "Gnasher Shinplate",
+                "body_part": "Leg",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": 2
+                }
+            },
+            {
+                "name": "Sharpened Slapper",
+                "body_part": "Tail",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": null
+                }
+            },
+            {
+                "name": "Rumour: Grievance Dye",
+                "body_part": "Tail",
+                "form": "Enraged",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": null
+                }
+            }
+        ]
+    },
+    {
+        "name": "Lesser Quillshot",
+        "element": "Neutral",
+        "location": [
+            "Revelation Rock",
+            "Restless Sands"
+        ],
+        "variants": [
+            "Lesser Quillshot",
+            "Quillshot",
+            "Deadeye Quillshot",
+            "Deadeye Quillshot (Heroic)",
+            "Flameborn Quillshot"
+        ],
+        "body_parts": [
+            "Head",
+            "Quill",
+            "Leg",
+            "Tail"
+        ],
+        "drops": [
+            {
+                "name": "Quillshot Hide",
+                "body_part": null,
+                "form": "Normal",
+                "rate": 100,
+                "quantity": {
+                    "min": 5,
+                    "max": 10
+                }
+            },
+            {
+                "name": "Rams",
+                "body_part": null,
+                "form": "Normal",
+                "rate": 100,
+                "quantity": {
+                    "min": 100,
+                    "max": null
+                }
+            },
+            {
+                "name": "Quillshot Tusk",
+                "body_part": "Head",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": null
+                }
+            },
+            {
+                "name": "Dewspine",
+                "body_part": "Leg",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": 2
+                }
+            },
+            {
+                "name": "Jagged Tailspike",
+                "body_part": "Tail",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": null
+                }
+            },
+            {
+                "name": "Quillshard",
+                "body_part": "Quill",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": null
+                }
+            }
+        ]
+    },
+    {
+        "name": "Quillshot",
+        "element": "Neutral",
+        "location": [
+            "Restless Sands",
+            "Iron Falls",
+            "Sunderstone"
+        ],
+        "variants": [
+            "Lesser Quillshot",
+            "Quillshot",
+            "Deadeye Quillshot",
+            "Deadeye Quillshot (Heroic)",
+            "Flameborn Quillshot"
+        ],
+        "body_parts": [
+            "Head",
+            "Quill",
+            "Leg",
+            "Tail"
+        ],
+        "drops": [
+            {
+                "name": "Quillshot Hide",
+                "body_part": null,
+                "form": "Normal",
+                "rate": 100,
+                "quantity": {
+                    "min": 5,
+                    "max": 10
+                }
+            },
+            {
+                "name": "Rams",
+                "body_part": null,
+                "form": "Normal",
+                "rate": 100,
+                "quantity": {
+                    "min": 160,
+                    "max": null
+                }
+            },
+            {
+                "name": "Quillshot Tusk",
+                "body_part": "Head",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": null
+                }
+            },
+            {
+                "name": "Dewspine",
+                "body_part": "Leg",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": 2
+                }
+            },
+            {
+                "name": "Jagged Tailspike",
+                "body_part": "Tail",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": null
+                }
+            },
+            {
+                "name": "Quillshard",
+                "body_part": "Quill",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": null
+                }
+            }
+        ]
+    },
+    {
+        "name": "Deadeye Quillshot",
+        "element": "Neutral",
+        "location": [
+            "Frostmarch",
+            "Fortune's Folly"
+        ],
+        "variants": [
+            "Lesser Quillshot",
+            "Quillshot",
+            "Deadeye Quillshot",
+            "Deadeye Quillshot (Heroic)",
+            "Flameborn Quillshot"
+        ],
+        "body_parts": [
+            "Head",
+            "Quill",
+            "Leg",
+            "Tail"
+        ],
+        "drops": [
+            {
+                "name": "Quillshot Hide",
+                "body_part": null,
+                "form": "Normal",
+                "rate": 100,
+                "quantity": {
+                    "min": 5,
+                    "max": 10
+                }
+            },
+            {
+                "name": "Rams",
+                "body_part": null,
+                "form": "Normal",
+                "rate": 100,
+                "quantity": {
+                    "min": 315,
+                    "max": null
+                }
+            },
+            {
+                "name": "Quillshot Tusk",
+                "body_part": "Head",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": null
+                }
+            },
+            {
+                "name": "Dewspine",
+                "body_part": "Leg",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": 2
+                }
+            },
+            {
+                "name": "Jagged Tailspike",
+                "body_part": "Tail",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": null
+                }
+            },
+            {
+                "name": "Quillshard",
+                "body_part": "Quill",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": null
+                }
+            },
+            {
+                "name": "Rumour: Vicious Dye",
+                "body_part": "Head",
+                "form": "Enraged",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": null
+                }
+            }
+        ]
+    },
+    {
+        "name": "Deadeye Quillshot (Heroic)",
+        "element": "Neutral",
+        "location": [
+            "The Snowblind Waste"
+        ],
+        "variants": [
+            "Lesser Quillshot",
+            "Quillshot",
+            "Deadeye Quillshot",
+            "Deadeye Quillshot (Heroic)",
+            "Flameborn Quillshot"
+        ],
+        "body_parts": [
+            "Head",
+            "Quill",
+            "Leg",
+            "Tail"
+        ],
+        "drops": [
+            {
+                "name": "Quillshot Hide",
+                "body_part": null,
+                "form": "Normal",
+                "rate": 100,
+                "quantity": {
+                    "min": 5,
+                    "max": 10
+                }
+            },
+            {
+                "name": "Rams",
+                "body_part": null,
+                "form": "Normal",
+                "rate": 100,
+                "quantity": {
+                    "min": 345,
+                    "max": null
+                }
+            },
+            {
+                "name": "Quillshot Tusk",
+                "body_part": "Head",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": null
+                }
+            },
+            {
+                "name": "Dewspine",
+                "body_part": "Leg",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": 2
+                }
+            },
+            {
+                "name": "Jagged Tailspike",
+                "body_part": "Tail",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": null
+                }
+            },
+            {
+                "name": "Quillshard",
+                "body_part": "Quill",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": null
+                }
+            },
+            {
+                "name": "Rumour: Vicious Dye",
+                "body_part": "Head",
+                "form": "Enraged",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": null
+                }
+            }
+        ]
+    },
+    {
+        "name": "Flameborn Quillshot",
+        "element": "Blaze",
+        "location": [
+            "Brightwood",
+            "Hades Reach"
+        ],
+        "variants": [
+            "Lesser Quillshot",
+            "Quillshot",
+            "Deadeye Quillshot",
+            "Deadeye Quillshot (Heroic)",
+            "Flameborn Quillshot"
+        ],
+        "body_parts": [
+            "Head",
+            "Quill",
+            "Leg",
+            "Tail"
+        ],
+        "drops": [
+            {
+                "name": "Quillshot Hide",
+                "body_part": null,
+                "form": "Normal",
+                "rate": 100,
+                "quantity": {
+                    "min": 5,
+                    "max": 10
+                }
+            },
+            {
+                "name": "Rams",
+                "body_part": null,
+                "form": "Normal",
+                "rate": 100,
+                "quantity": {
+                    "min": 260,
+                    "max": null
+                }
+            },
+            {
+                "name": "Deadeye Spinehide",
+                "body_part": null,
+                "form": "Normal",
+                "rate": 100,
+                "quantity": {
+                    "min": 5,
+                    "max": 10
+                }
+            },
+            {
+                "name": "Impaler Shard",
+                "body_part": null,
+                "form": "Normal",
+                "rate": 1,
+                "quantity": {
+                    "min": 5,
+                    "max": 10
+                }
+            },
+            {
+                "name": "Quillshot Tusk",
+                "body_part": "Head",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": null
+                }
+            },
+            {
+                "name": "Dewspine",
+                "body_part": "Leg",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": 2
+                }
+            },
+            {
+                "name": "Jagged Tailspike",
+                "body_part": "Tail",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": null
+                }
+            },
+            {
+                "name": "Quillshard",
+                "body_part": "Quill",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": null
+                }
+            }
+        ]
+    },
+    {
+        "name": "Shrike",
+        "element": "Neutral",
+        "location": [
+            "Aulric's Peak",
+            "Thunderwatch"
+        ],
+        "variants": [
+            "Moonreaver Shrike",
+            "Moonreaver Shrike (Heroic)"
+        ],
+        "body_parts": [
+            "Head",
+            "Wing",
+            "Leg",
+            "Tail"
+        ],
+        "drops": [
+            {
+                "name": "Torn Shrikefeather",
+                "body_part": null,
+                "form": "Normal",
+                "rate": 100,
+                "quantity": {
+                    "min": 5,
+                    "max": 11
+                }
+            },
+            {
+                "name": "Rams",
+                "body_part": null,
+                "form": "Normal",
+                "rate": 100,
+                "quantity": {
+                    "min": 160,
+                    "max": null
+                }
+            },
+            {
+                "name": "Razor Beak",
+                "body_part": "Head",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": null
+                }
+            },
+            {
+                "name": "Shrikedown",
+                "body_part": "Leg",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": 2
+                }
+            },
+            {
+                "name": "Shrike Tailfeather",
+                "body_part": "tail",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": null
+                }
+            },
+            {
+                "name": "Shrike Bladefeather",
+                "body_part": "Wing",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": 2
+                }
+            }
+        ]
+    },
+    {
+        "name": "Charrogg",
+        "element": "Blaze",
+        "location": [
+            "Sunderstone"
+        ],
+        "variants": [
+            "Firebrand Charrogg",
+            "Firebrand Charrogg (Heroic)",
+            "Sporestruck Charrogg"
+        ],
+        "body_parts": [
+            "Head",
+            "Firesac",
+            "Leg",
+            "Tail"
+        ],
+        "drops": [
+            {
+                "name": "Charrogg Scale",
+                "body_part": null,
+                "form": "Normal",
+                "rate": 100,
+                "quantity": {
+                    "min": 5,
+                    "max": 11
+                }
+            },
+            {
+                "name": "Rams",
+                "body_part": null,
+                "form": "Normal",
+                "rate": 145,
+                "quantity": {
+                    "min": 145,
+                    "max": null
+                }
+            },
+            {
+                "name": "Smoldering Horn",
+                "body_part": "Head",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": null
+                }
+            },
+            {
+                "name": "Scorched Rockhide",
+                "body_part": "Leg",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": 2
+                }
+            },
+            {
+                "name": "Smoldering Tailspike",
+                "body_part": "Tail",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": null
+                }
+            },
+            {
+                "name": "Burned Gillhide",
+                "body_part": "Firesac",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": 2
+                }
+            }
+        ]
+    },
+    {
+        "name": "Embermane",
+        "element": "Blaze",
+        "location": [
+            "Sunderstone",
+            "Brightwood"
+        ],
+        "variants": [
+            "Lesser Embermane",
+            "Bloodfire Embermane (Heroic)",
+            "Bloodfire Embermane (Heroic)"
+        ],
+        "body_parts": [
+            "Head",
+            "Horn",
+            "Leg",
+            "Tail"
+        ],
+        "drops": [
+            {
+                "name": "Embermane Hide",
+                "body_part": null,
+                "form": "Normal",
+                "rate": 100,
+                "quantity": {
+                    "min": 5,
+                    "max": 11
+                }
+            },
+            {
+                "name": "Rams",
+                "body_part": null,
+                "form": "Normal",
+                "rate": 160,
+                "quantity": {
+                    "min": 145,
+                    "max": null
+                }
+            },
+            {
+                "name": "Savage Hooktooth",
+                "body_part": "Head",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": null
+                }
+            },
+            {
+                "name": "Smoked Dewclaw",
+                "body_part": "Leg",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": 2
+                }
+            },
+            {
+                "name": "Burning Tailspike",
+                "body_part": "Tail",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": null
+                }
+            },
+            {
+                "name": "Emberhorn",
+                "body_part": "Horn",
+                "form": "Normal",
+                "rate": 14,
+                "quantity": {
+                    "min": 1,
+                    "max": 2
+                }
+            }
+        ]
+    }
+]
