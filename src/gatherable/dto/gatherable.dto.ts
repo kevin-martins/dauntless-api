@@ -1,14 +1,14 @@
 import { ApiProperty } from "@nestjs/swagger";
 
 export enum GatherableType {
-  Flower,
-  Ore,
+  Flower = "Flower",
+  Ore = "Ore",
 }
 
 export enum GatherableRarity {
-  Common,
-  Uncommon,
-  Rare,
+  Common = "Common",
+  Uncommon = "Uncommon",
+  Rare = "Rare",
 }
 
 export class GatherableDto {
