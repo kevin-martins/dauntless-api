@@ -1,6 +1,6 @@
 import { BadRequestException, Injectable } from "@nestjs/common";
-// import { CreateIslandDto } from "./dto/islandDto";
-import { islands } from "../constant/island";
+import * as islands from "../constant/island.json";
+import { GatherableRarity } from "src/gatherable/dto/gatherable.dto";
 
 @Injectable({})
 export class IslandService {
@@ -10,17 +10,15 @@ export class IslandService {
     return this.islands;
   }
 
-  getIslandNamesByBehemothName(name: string) {
-    return this.islands
-      .filter((island) => {
-        const hasBehemoth = island.behemoths.some((behemoth) => {
-          return behemoth.name.toLowerCase().includes(name.toLowerCase());
-        });
-        if (hasBehemoth) {
-          return island;
-        }
-      })
-      .map((el) => el.name);
+  getIslandsByBehemothName(name: string) {
+    return this.islands.filter((island) => {
+      const hasBehemoth = island.behemoths.some((behemoth) => {
+        return behemoth.name.toLowerCase().includes(name.toLowerCase());
+      });
+      if (hasBehemoth) {
+        return island;
+      }
+    });
   }
 
   getIslandsByLevel(min: number, max: number) {
@@ -42,5 +40,12 @@ export class IslandService {
       }
       return island.level.max <= max && island.level.min >= min;
     });
+  }
+
+  getIslandNamesByGatherable(name: string, rarity: GatherableRarity) {
+    return {
+      name,
+      rarity,
+    };
   }
 }
