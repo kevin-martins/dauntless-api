@@ -1,0 +1,427 @@
+[
+  {
+    "name": "Aetherdrive Tonic",
+    "icon": "Aetherdrive_Tonic_Icon_001.webp",
+    "type": "Tonic",
+    "effect": "Increases the recharge rate of your lantern’s ability by 100% for 60 seconds.",
+    "capacity": 5,
+    "price": 500,
+    "quantity": 1,
+    "recipe": [
+      {
+        "name": "Dashleaf",
+        "quantity": 1
+      },
+      {
+        "name": "Phoenix Opal",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "name": "Blitz Tonic",
+    "icon": "Blitz_Tonic_Icon_001.webp",
+    "type": "Tonic",
+    "effect": "Reduces damage taken by 45% for the next 3 hits.",
+    "capacity": 3,
+    "price": 500,
+    "quantity": 1,
+    "recipe": [
+      {
+        "name": "Ironthistle",
+        "quantity": 2
+      },
+      {
+        "name": "Skybloom",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "name": "Bulwark Tonic",
+    "icon": "Bulwark_Tonic_Icon_001.webp",
+    "type": "Tonic",
+    "effect": "Reduces damage taken by 45% for the next 3 hits.",
+    "capacity": 3,
+    "price": 500,
+    "quantity": 1,
+    "recipe": [
+      {
+        "name": "Ironthistle",
+        "quantity": 2
+      },
+      {
+        "name": "Skybloom",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "name": "Frenzy Tonic",
+    "icon": "Frenzy_Tonic_Icon_001.webp",
+    "type": "Tonic",
+    "effect": "Grants 15% increased damage dealt for 60 seconds. Grants 30% if a Behemoth is enraged.",
+    "capacity": 5,
+    "price": 500,
+    "quantity": 1,
+    "recipe": [
+      {
+        "name": "Skybloom",
+        "quantity": 2
+      },
+      {
+        "name": "Wrathwort",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "name": "Stamina Tonic",
+    "icon": "Stamina_Tonic_Icon_001.webp",
+    "type": "Tonic",
+    "effect": "Grants 50% increased stamina regen and 50% reduced stamina costs for 120 seconds.",
+    "capacity": 3,
+    "price": 500,
+    "quantity": 1,
+    "recipe": [
+      {
+        "name": "Skybloom",
+        "quantity": 2
+      },
+      {
+        "name": "Dashleaf",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Lifedrain Tonic",
+    "icon": "Lifedrain_Tonic_Icon_001.webp",
+    "type": "Tonic",
+    "effect": "12% of all damage dealt will heal all nearby Slayers for 30 seconds.",
+    "capacity": 3,
+    "price": 500,
+    "quantity": 1,
+    "recipe": [
+      {
+        "name": "Heart Lily",
+        "quantity": 1
+      },
+      {
+        "name": "Phoenix Opal",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "name": "Insight Tonic",
+    "icon": "Insight_Tonic_Icon_001.webp",
+    "type": "Tonic",
+    "effect": "Grants 40% increased Wound damage dealt for 60 seconds.",
+    "capacity": 5,
+    "price": 500,
+    "quantity": 1,
+    "recipe": [
+      {
+        "name": "Wrathwort",
+        "quantity": 1
+      },
+      {
+        "name": "Slayer's Boon",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Assault Tonic",
+    "icon": "Assault_Tonic_Icon_001.webp",
+    "type": "Tonic",
+    "effect": "Grants 40% increased Stagger damage dealt for 60 seconds.",
+    "capacity": 5,
+    "price": 500,
+    "quantity": 1,
+    "recipe": [
+      {
+        "name": "Wrathwort",
+        "quantity": 1
+      },
+      {
+        "name": "Slayer's Boon",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Granny's Antidote",
+    "icon": "Grannys_Antidote_Icon.webp",
+    "type": "Tonic",
+    "effect": "Removes Poisoned status. Available from September 17, 2020 to December 3, 2020.",
+    "capacity": 5,
+    "price": null,
+    "quantity": 1,
+    "recipe": [
+      {
+        "name": "Phoenix Opal",
+        "quantity": 1
+      },
+      {
+        "name": "Omnistone",
+        "quantity": 1
+      },
+      {
+        "name": "Pureworth",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "name": "Granny's Heartbreaker",
+    "icon": "Grannys_Heartbreaker_Icon.webp",
+    "type": "Tonic",
+    "effect": "Increase critical strike chance and critical strike damage by 25% for 40 seconds. Available from September 17, 2020 to December 3, 2020.",
+    "capacity": 3,
+    "price": null,
+    "quantity": 1,
+    "recipe": [
+      {
+        "name": "Wrathwort",
+        "quantity": 2
+      },
+      {
+        "name": "Phoenix Opal",
+        "quantity": 1
+      },
+      {
+        "name": "Pureworth",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "name": "Granny's Poison-Puller",
+    "icon": "Grannys_Poison-Puller_Icon.webp",
+    "type": "Tonic",
+    "effect": "Absorb poison pools while this potion is active. After absorbing a pool, 12% of damage you deal heals all nearby Slayers for 10 seconds, Only 1 pool is absorbed at a time. Available from September 17, 2020 to December 3, 2020.",
+    "capacity": 3,
+    "price": null,
+    "quantity": 1,
+    "recipe": [
+      {
+        "name": "Omnistone",
+        "quantity": 2
+      },
+      {
+        "name": "Phoenix Opal",
+        "quantity": 1
+      },
+      {
+        "name": "Pureworth",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "name": "Ironhide Pylon",
+    "icon": "Ironhide_Pylon_Icon_001.webp",
+    "type": "Pylon",
+    "effect": "Place a pylon that grants 40% decreased damage taken to all nearby Slayers for 45 seconds.",
+    "capacity": 2,
+    "price": 1000,
+    "quantity": 1,
+    "recipe": [
+      {
+        "name": "Ironthistle",
+        "quantity": 1
+      },
+      {
+        "name": "Omnistone",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "name": "Cleansing Pylon",
+    "icon": "Cleansing_Pylon_Icon_001.webp",
+    "type": "Pylon",
+    "effect": "Place a pylon that removes negative conditions from nearby Slayers and reduces their frostbite level by 25%. The pylons aura will also prevent frostbite levels from increasing.",
+    "capacity": 1,
+    "price": 1000,
+    "quantity": 1,
+    "recipe": [
+      {
+        "name": "Skybloom",
+        "quantity": 1
+      },
+      {
+        "name": "Omnistone",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "name": "Lifespring Pylon",
+    "icon": "Lifespring_Pylon_Icon_001.webp",
+    "type": "Pylon",
+    "effect": "Place a pylon that restores 22 health per second to nearby slayers for 20 seconds.",
+    "capacity": 2,
+    "price": 1000,
+    "quantity": 1,
+    "recipe": [
+      {
+        "name": "Heart Lily",
+        "quantity": 1
+      },
+      {
+        "name": "Omnistone",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "name": "Inspiring Pylon",
+    "icon": "Inspiring_Pylon_Icon_001.webp",
+    "type": "Pylon",
+    "effect": "Throw a grenade that will detonate when impacting a Behemoth, dealing 240-450 damage and creating 3 healing orbs that seek out injured Slayers and heal them for 120 health each. Damage scales with weapon power.",
+    "capacity": 3,
+    "price": 750,
+    "quantity": 2,
+    "recipe": [
+      {
+        "name": "Heart Lily",
+        "quantity": 2
+      },
+      {
+        "name": "Omnistone",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Barrage Grenade",
+    "icon": "Barrage_Grenade_Icon_001.webp",
+    "type": "Grenade",
+    "effect": "Throw a grenade that deals 200-375 damage before splitting into 3 grenades, each dealing 96-180 damage. Damage scales with weapon power.",
+    "capacity": 5,
+    "price": 750,
+    "quantity": 2,
+    "recipe": [
+      {
+        "name": "Slayer's Boon",
+        "quantity": 2
+      },
+      {
+        "name": "Omnistone",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Concussive Grenade",
+    "icon": "Concussive_Grenade_Icon_001.webp",
+    "type": "Grenade",
+    "effect": "Throw a grenade that deals 240-450 damage and can interrupt Behemoths. Damage scales with weapon power.",
+    "capacity": 3,
+    "price": 750,
+    "quantity": 2,
+    "recipe": [
+      {
+        "name": "Wrathwort",
+        "quantity": 2
+      },
+      {
+        "name": "Omnistone",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Coldsnap Grenade",
+    "icon": "Coldsnap_Grenade_Icon_001.webp",
+    "type": "Grenade",
+    "effect": "Throw a grenade that deals 120-225 frost damage before splitting into 8 icy orbs that deal 32-60 frost damage each. Damage scales with weapon power.",
+    "capacity": 5,
+    "price": 750,
+    "quantity": 2,
+    "recipe": [
+      {
+        "name": "Slayer's Boon",
+        "quantity": 2
+      },
+      {
+        "name": "Omnistone",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Inferno Grenade",
+    "icon": "Inferno_Grenade_Icon_001.webp",
+    "type": "Grenade",
+    "effect": "Throw a grenade that deals 120-225 blaze damage and creates a pool of fire that deals 288-540 blaze damage over 4 seconds. Damage scales with weapon power.",
+    "capacity": 5,
+    "price": 750,
+    "quantity": 2,
+    "recipe": [
+      {
+        "name": "Slayer's Boon",
+        "quantity": 2
+      },
+      {
+        "name": "Omnistone",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Transfusion Grenade",
+    "icon": "Transfusion_Grenade_Icon_001.webp",
+    "type": "Grenade",
+    "effect": "Throw a grenade that will detonate when impacting a Behemoth, dealing 240-450 damage and creating 3 healing orbs that seek out injured Slayers and heal them for 120 health each. Damage scales with weapon power.",
+    "capacity": 3,
+    "price": 750,
+    "quantity": 2,
+    "recipe": [
+      {
+        "name": "Heart Lily",
+        "quantity": 2
+      },
+      {
+        "name": "Omnistone",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Airstrike Beacon",
+    "icon": "Airstrike_Beacon_Icon_001.webp",
+    "type": "Misc",
+    "effect": "Targets an area on the ground for an airstrike, dealing 2100 damage to all Behemoths inside the area.",
+    "capacity": 1,
+    "price": 1000,
+    "quantity": 1,
+    "recipe": [
+      {
+        "name": "Dashleaf",
+        "quantity": 3
+      },
+      {
+        "name": "Wrathwort",
+        "quantity": 3
+      },
+      {
+        "name": "Phoenix Opal",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "name": "Healing Flask",
+    "icon": "Healing_Flask_Icon.webp",
+    "type": "Misc",
+    "effect": "Restores 425 health five times per hunt and may revive the slayer once per hunt. Refills upon return to Ramsgate.",
+    "capacity": 5,
+    "price": 0,
+    "quantity": 0,
+    "recipe": null
+  }
+]

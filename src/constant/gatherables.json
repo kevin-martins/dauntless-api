@@ -1,0 +1,200 @@
+[
+  {
+    "name": "Ironthistle",
+    "icon": "Ironthistle_Icon_001.webp",
+    "type": "Flower",
+    "crafts": [
+      {
+        "name": "Bulwark Tonic"
+      },
+      {
+        "name": "Ironhide Pylon"
+      }
+    ]
+  },
+  {
+    "name": "Heart Lily",
+    "icon": "Heart_Lily_Icon_001.webp",
+    "type": "Flower",
+    "crafts": [
+      {
+        "name": "Lifedrain Tonic"
+      },
+      {
+        "name": "Lifedrain Pylon"
+      },
+      {
+        "name": "Transfusion Grenade"
+      }
+    ]
+  },
+  {
+    "name": "Wrathwort",
+    "icon": "Wrathwort_Icon_001.webp",
+    "type": "Flower",
+    "crafts": [
+      {
+        "name": "Assault Tonic"
+      },
+      {
+        "name": "Blitz Tonic"
+      },
+      {
+        "name": "Frenzy Tonic"
+      },
+      {
+        "name": "Granny's Heartbreaker"
+      },
+      {
+        "name": "Insight Tonic"
+      },
+      {
+        "name": "Inspiring Pylon"
+      },
+      {
+        "name": "Concussive Grenade"
+      },
+      {
+        "name": "Airstrike Beacon"
+      }
+    ]
+  },
+  {
+    "name": "Slayer's Boon",
+    "icon": "Slayers_Boon_Icon_001.webp",
+    "type": "Flower",
+    "crafts": [
+      {
+        "name": "Assault Tonic"
+      },
+      {
+        "name": "Insight Tonic"
+      },
+      {
+        "name": "Barrage Grenade"
+      },
+      {
+        "name": "Coldsnap Grenade"
+      },
+      {
+        "name": "Inferno Grenade"
+      }
+    ]
+  },
+  {
+    "name": "Dashleaf",
+    "icon": "Dashleaf_Icon_001.webp",
+    "type": "Flower",
+    "crafts": [
+      {
+        "name": "Aetherdrive Tonic"
+      },
+      {
+        "name": "Blitz Tonic"
+      },
+      {
+        "name": "Stamina Tonic"
+      },
+      {
+        "name": "Airstrike Beacon"
+      }
+    ]
+  },
+  {
+    "name": "Skybloom",
+    "icon": "Skybloom_Icon_001.webp",
+    "type": "Flower",
+    "crafts": [
+      {
+        "name": "Bulwark Tonic"
+      },
+      {
+        "name": "Frenzy Tonic"
+      },
+      {
+        "name": "Stamina Tonic"
+      },
+      {
+        "name": "Cleansing Pylon"
+      }
+    ]
+  },
+  {
+    "name": "Omnistone",
+    "icon": "Omnistone_Icon_001.webp",
+    "type": "Ore",
+    "crafts": [
+      {
+        "name": "Granny's Antidote"
+      },
+      {
+        "name": "Granny's Poison-Puller"
+      },
+      {
+        "name": "Cleansing Pylon"
+      },
+      {
+        "name": "Inspiring Pylon"
+      },
+      {
+        "name": "Ironhide Pylon"
+      },
+      {
+        "name": "Lifespring Pylon"
+      },
+      {
+        "name": "Barrage Grenade"
+      },
+      {
+        "name": "Coldsnap Grenade"
+      },
+      {
+        "name": "Concussive Grenade"
+      },
+      {
+        "name": "Inferno Grenade"
+      },
+      {
+        "name": "Transfusion Grenade"
+      }
+    ]
+  },
+  {
+    "name": "Phoenix Opal",
+    "icon": "Phoenix_Opal_Icon_001.webp",
+    "type": "Ore",
+    "crafts": [
+      {
+        "name": "Aetherdrive Tonic"
+      },
+      {
+        "name": "Lifedrain Tonic"
+      },
+      {
+        "name": "Granny's Antidote"
+      },
+      {
+        "name": "Granny's Heartbreaker"
+      },
+      {
+        "name": "Granny's Poison-Puller"
+      }
+    ]
+  },
+  {
+    "name": "Purewort",
+    "icon": "Purewort_Icon.webp",
+    "type": "Flower",
+    "crafts": [
+      {
+        "name": "Granny's Antidote"
+      },
+      {
+        "name": "Granny's Heartbreaker"
+      },
+      {
+        "name": "Granny's Poison-Puller"
+      }
+    ]
+  }
+]

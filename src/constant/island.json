@@ -1,0 +1,1248 @@
+[
+    {
+      "name": "Emberthorn Cove",
+      "icon": "Island_Icon_001.webp",
+      "level": {
+        "min": 1,
+        "max": 2
+      },
+      "behemoths": [
+        {
+          "name": "Lesser Embermane",
+          "guaranteed": true
+        }
+      ],
+      "gatherables": [
+        {
+          "name": "Ironthistle",
+          "rarity": "Common"
+        }
+      ],
+      "events": null,
+      "discoveries": [
+        {
+          "name": "Aetheric Meteorite"
+        }
+      ]
+    },
+    {
+      "name": "Boreal Outpost",
+      "icon": "Island_Icon_002.webp",
+      "level": {
+        "min": 1,
+        "max": 3
+      },
+      "behemoths": [
+        {
+          "name": "Lesser Boreus",
+          "guaranteed": true
+        },
+        {
+          "name": "Lesser Gnasher",
+          "guaranteed": false
+        }
+      ],
+      "gatherables": [
+        {
+          "name": "Heart Lily",
+          "rarity": "Common"
+        },
+        {
+          "name": "Skybloom",
+          "rarity": "Uncommon"
+        }
+      ],
+      "events": null,
+      "discoveries": [
+        {
+          "name": "That Snow Battlefield"
+        }
+      ]
+    },
+    {
+      "name": "Revelation Rock",
+      "icon": "Island_Icon_003.webp",
+      "level": {
+        "min": 2,
+        "max": 4
+      },
+      "behemoths": [
+        {
+          "name": "Lesser Quillshot",
+          "guaranteed": true
+        },
+        {
+          "name": "Lesser Gnasher",
+          "guaranteed": false
+        },
+        {
+          "name": "Gnasher",
+          "guaranteed": false
+        },
+        {
+          "name": "Lesser Boreus",
+          "guaranteed": false
+        },
+        {
+          "name": "Boreus",
+          "guaranteed": false
+        }
+      ],
+      "gatherables": [
+        {
+          "name": "Ironthistle",
+          "rarity": "Common"
+        },
+        {
+          "name": "Slayer's Boon",
+          "rarity": "Uncommon"
+        },
+        {
+          "name": "Dashleaf",
+          "rarity": "Rare"
+        }
+      ],
+      "events": [
+        {
+          "name": "Aether Surge"
+        }
+      ],
+      "discoveries": [
+        {
+          "name": "Gnasher Sign"
+        }
+      ]
+    },
+    {
+      "name": "Restless Sands",
+      "icon": "Island_Icon_004.webp",
+      "level": {
+        "min": 3,
+        "max": 5
+      },
+      "behemoths": [
+        {
+          "name": "Lesser Drask",
+          "guaranteed": true
+        },
+        {
+          "name": "Lesser Embermane",
+          "guaranteed": false
+        },
+        {
+          "name": "Lesser Quillshot",
+          "guaranteed": false
+        },
+        {
+          "name": "Quillshot",
+          "guaranteed": false
+        }
+      ],
+      "gatherables": [
+        {
+          "name": "Skybloom",
+          "rarity": "Uncommon"
+        },
+        {
+          "name": "Phoenix Opal",
+          "rarity": "Common"
+        },
+        {
+          "name": "Omnistone",
+          "rarity": "Rare"
+        }
+      ],
+      "events": [
+        {
+          "name": "Blast Zone"
+        },
+        {
+          "name": "Aether Surge"
+        }
+      ],
+      "discoveries": [
+        {
+          "name": "Unoccupied Slayer Camp"
+        }
+      ]
+    },
+    {
+      "name": "Iron Falls",
+      "icon": "Island_Icon_003.webp",
+      "level": {
+        "min": 4,
+        "max": 6
+      },
+      "behemoths": [
+        {
+          "name": "Skarn",
+          "guaranteed": true
+        },
+        {
+          "name": "Boreus",
+          "guaranteed": false
+        },
+        {
+          "name": "Gnasher",
+          "guaranteed": false
+        },
+        {
+          "name": "Quillshot",
+          "guaranteed": false
+        }
+      ],
+      "gatherables": [
+        {
+          "name": "Heart Lily",
+          "rarity": "Common"
+        },
+        {
+          "name": "Ironthistle",
+          "rarity": "Common"
+        },
+        {
+          "name": "Wrathwort",
+          "rarity": "Rare"
+        }
+      ],
+      "events": [
+        {
+          "name": "Shatterstorm"
+        },
+        {
+          "name": "Aether Surge"
+        }
+      ],
+      "discoveries": [
+        {
+          "name": "Zephyr Strike Banner"
+        }
+      ]
+    },
+    {
+      "name": "Sunderstone",
+      "icon": "Island_Icon_004.webp",
+      "level": {
+        "min": 5,
+        "max": 8
+      },
+      "behemoths": [
+        {
+          "name": "Charrogg",
+          "guaranteed": true
+        },
+        {
+          "name": "Embermane",
+          "guaranteed": false
+        },
+        {
+          "name": "Skarn",
+          "guaranteed": false
+        },
+        {
+          "name": "Quillshot",
+          "guaranteed": false
+        }
+      ],
+      "gatherables": [
+        {
+          "name": "Ironthistle",
+          "rarity": "Common"
+        },
+        {
+          "name": "Dashleaf",
+          "rarity": "Uncommon"
+        },
+        {
+          "name": "Phoenix Opal",
+          "rarity": "Rare"
+        }
+      ],
+      "events": [
+        {
+          "name": "Embermania"
+        },
+        {
+          "name": "Aether Surge"
+        },
+        {
+          "name": "High Alert"
+        }
+      ],
+      "discoveries": [
+        {
+          "name": "Wreck of the I.M.V Tarmo"
+        }
+      ]
+    },
+    {
+      "name": "Aulric's Peak",
+      "icon": "Island_Icon_005.webp",
+      "level": {
+        "min": 6,
+        "max": 9
+      },
+      "behemoths": [
+        {
+          "name": "Shrike",
+          "guaranteed": true
+        },
+        {
+          "name": "Drask",
+          "guaranteed": false
+        },
+        {
+          "name": "Boreus",
+          "guaranteed": false
+        },
+        {
+          "name": "Ragetail Gnasher",
+          "guaranteed": false
+        },
+        {
+          "name": "Gnasher",
+          "guaranteed": false
+        }
+      ],
+      "gatherables": [
+        {
+          "name": "Skybloom",
+          "rarity": "Common"
+        },
+        {
+          "name": "Slayer's Boon",
+          "rarity": "Common"
+        },
+        {
+          "name": "Heart Lily",
+          "rarity": "Uncommon"
+        }
+      ],
+      "events": [
+        {
+          "name": "Aether Surge"
+        },
+        {
+          "name": "Shrike Strike"
+        },
+        {
+          "name": "High Alert"
+        }
+      ],
+      "discoveries": null
+    },
+    {
+      "name": "Frostmarch",
+      "icon": "Island_Icon_002.webp",
+      "level": {
+        "min": 7,
+        "max": 10
+      },
+      "behemoths": [
+        {
+          "name": "Pangar",
+          "guaranteed": true
+        },
+        {
+          "name": "Deadfrost Boreus",
+          "guaranteed": false
+        },
+        {
+          "name": "Deepfrost Skarn",
+          "guaranteed": false
+        },
+        {
+          "name": "Deadeye Quillshot",
+          "guaranteed": false
+        },
+        {
+          "name": "Sporestruck Charrogg",
+          "guaranteed": false
+        },
+        {
+          "name": "Deepfrost Gnasher",
+          "guaranteed": false
+        }
+      ],
+      "gatherables": [
+        {
+          "name": "Skybloom",
+          "rarity": "Common"
+        },
+        {
+          "name": "Phoenix Opal",
+          "rarity": "Common"
+        },
+        {
+          "name": "Omnistone",
+          "rarity": "Uncommon"
+        }
+      ],
+      "events": [
+        {
+          "name": "Coldsnap"
+        },
+        {
+          "name": "Aether Surge"
+        },
+        {
+          "name": "High Alert"
+        }
+      ],
+      "discoveries": [
+        {
+          "name": "Unusual Helm"
+        }
+      ]
+    },
+    {
+      "name": "Fortune's Folly",
+      "icon": "Island_Icon_002.webp",
+      "level": {
+        "min": 9,
+        "max": 12
+      },
+      "behemoths": [
+        {
+          "name": "Kharabak",
+          "guaranteed": true
+        },
+        {
+          "name": "Sporestruck Charrogg",
+          "guaranteed": false
+        },
+        {
+          "name": "Frostback Pangar",
+          "guaranteed": false
+        },
+        {
+          "name": "Moonreaver Shrike",
+          "guaranteed": false
+        },
+        {
+          "name": "Deadeye Quillshot",
+          "guaranteed": false
+        }
+      ],
+      "gatherables": [
+        {
+          "name": "Ironthistle",
+          "rarity": "Common"
+        },
+        {
+          "name": "Heart Lily",
+          "rarity": "Uncommon"
+        },
+        {
+          "name": "Wrathwort",
+          "rarity": "Uncommon"
+        },
+        {
+          "name": "Omnistone",
+          "rarity": "Rare"
+        }
+      ],
+      "events": [
+        {
+          "name": "Slice and Dice"
+        },
+        {
+          "name": "Aether Surge"
+        },
+        {
+          "name": "High Alert"
+        }
+      ],
+      "discoveries": [
+        {
+          "name": "Corsair Anchor"
+        }
+      ]
+    },
+    {
+      "name": "Brightwood",
+      "icon": "Island_Icon_001.webp",
+      "level": {
+        "min": 10,
+        "max": 13
+      },
+      "behemoths": [
+        {
+          "name": "Sahvyt",
+          "guaranteed": true
+        },
+        {
+          "name": "Flameborn Quillshot",
+          "guaranteed": false
+        },
+        {
+          "name": "Bloodfire Embermane",
+          "guaranteed": false
+        },
+        {
+          "name": "Embermane",
+          "guaranteed": false
+        },
+        {
+          "name": "Nayzaga",
+          "guaranteed": false
+        }
+      ],
+      "gatherables": [
+        {
+          "name": "Dashleaf",
+          "rarity": "Common"
+        },
+        {
+          "name": "Ironthistle",
+          "rarity": "Uncommon"
+        },
+        {
+          "name": "Heart Lily",
+          "rarity": "Uncommon"
+        },
+        {
+          "name": "Slayer's Boon",
+          "rarity": "Uncommon"
+        }
+      ],
+      "events": [
+        {
+          "name": "Firewatch"
+        },
+        {
+          "name": "Aether Surge"
+        },
+        {
+          "name": "High Alert"
+        }
+      ],
+      "discoveries": [
+        {
+          "name": "Fruit Pileup"
+        },
+        {
+          "name": "Primal Instincts"
+        }
+      ]
+    },
+    {
+      "name": "Conundrum Rocks",
+      "icon": "Island_Icon_Radiant_Small.webp",
+      "level": {
+        "min": 10,
+        "max": 13
+      },
+      "behemoths": [
+        {
+          "name": "Valomyr",
+          "guaranteed": true
+        },
+        {
+          "name": "Lightbound Boreus",
+          "guaranteed": false
+        },
+        {
+          "name": "Firebrand Charrogg",
+          "guaranteed": false
+        },
+        {
+          "name": "Moonreaver Shrike",
+          "guaranteed": false
+        },
+        {
+          "name": "Ragetail Gnasher",
+          "guaranteed": false
+        }
+      ],
+      "gatherables": [
+        {
+          "name": "Slayer's Boon",
+          "rarity": "Common"
+        },
+        {
+          "name": "Omnistone",
+          "rarity": "Common"
+        },
+        {
+          "name": "Wrathwort",
+          "rarity": "Uncommon"
+        },
+        {
+          "name": "Phoenix Opal",
+          "rarity": "Uncommon"
+        }
+      ],
+      "events": [
+        {
+          "name": "Aether Surge"
+        },
+        {
+          "name": "High Alert"
+        }
+      ],
+      "discoveries": null
+    },
+    {
+      "name": "Coldrunner Key",
+      "icon": "Island_Icon_002.webp",
+      "level": {
+        "min": 11,
+        "max": 14
+      },
+      "behemoths": [
+        {
+          "name": "Frostwülf",
+          "guaranteed": true
+        },
+        {
+          "name": "Ragetail Gnasher (Heroic)",
+          "guaranteed": false
+        },
+        {
+          "name": "Frostback Pangar",
+          "guaranteed": false
+        },
+        {
+          "name": "Skraev",
+          "guaranteed": false
+        },
+        {
+          "name": "Sahvyt",
+          "guaranteed": false
+        },
+        {
+          "name": "Kaltauga",
+          "guaranteed": false
+        }
+      ],
+      "gatherables": [
+        {
+          "name": "Skybloom",
+          "rarity": "Uncommon"
+        },
+        {
+          "name": "Phoenix Opal",
+          "rarity": "Uncommon"
+        },
+        {
+          "name": "Omnistone",
+          "rarity": "Uncommon"
+        }
+      ],
+      "events": [
+        {
+          "name": "Below Zero"
+        },
+        {
+          "name": "Aether Surge"
+        },
+        {
+          "name": "High Alert"
+        }
+      ],
+      "discoveries": [
+        {
+          "name": "Frozen Gruk-Gruk"
+        },
+        {
+          "name": "Elder States"
+        }
+      ]
+    },
+    {
+      "name": "The Snowblind Waste",
+      "icon": "Island_Icon_002.webp",
+      "level": {
+        "min": 12,
+        "max": 15
+      },
+      "behemoths": [
+        {
+          "name": "Riftstalker",
+          "guaranteed": true
+        },
+        {
+          "name": "Shadowtouched Nayzaga",
+          "guaranteed": false
+        },
+        {
+          "name": "Winterhorn Skraev",
+          "guaranteed": false
+        },
+        {
+          "name": "Shockjaw Nayzaga (Heroic)",
+          "guaranteed": false
+        },
+        {
+          "name": "Deadeye Quillshot (Heroic)",
+          "guaranteed": false
+        },
+        {
+          "name": "Deepfrost Gnasher",
+          "guaranteed": false
+        }
+      ],
+      "gatherables": [
+        {
+          "name": "Skybloom",
+          "rarity": "Common"
+        },
+        {
+          "name": "Slayer's Boon",
+          "rarity": "Common"
+        },
+        {
+          "name": "Ironthistle",
+          "rarity": "Uncommon"
+        }
+      ],
+      "events": [
+        {
+          "name": "Dark Matter"
+        },
+        {
+          "name": "Aether Surge"
+        },
+        {
+          "name": "High Alert"
+        }
+      ],
+      "discoveries": [
+        {
+          "name": "Cultist Mask"
+        }
+      ]
+    },
+    {
+      "name": "Undervald Defile",
+      "icon": "Island_Icon_003.webp",
+      "level": {
+        "min": 13,
+        "max": 16
+      },
+      "behemoths": [
+        {
+          "name": "Koshai",
+          "guaranteed": true
+        },
+        {
+          "name": "Riftstalker",
+          "guaranteed": false
+        },
+        {
+          "name": "Shadowtouched Drask",
+          "guaranteed": false
+        },
+        {
+          "name": "Firebrand Charrogg (Heroic)",
+          "guaranteed": false
+        },
+        {
+          "name": "Razorwing Kharabak",
+          "guaranteed": false
+        },
+        {
+          "name": "Fenroar",
+          "guaranteed": false
+        }
+      ],
+      "gatherables": [
+        {
+          "name": "Wrathwort",
+          "rarity": "Common"
+        },
+        {
+          "name": "Dashleaf",
+          "rarity": "Uncommon"
+        },
+        {
+          "name": "Heart Lily",
+          "rarity": "Uncommon"
+        },
+        {
+          "name": "Ironthistle",
+          "rarity": "Rare"
+        },
+        {
+          "name": "Phoenix Opal",
+          "rarity": "Rare"
+        }
+      ],
+      "events": [
+        {
+          "name": "Toxic Behavior"
+        },
+        {
+          "name": "Aether Surge"
+        },
+        {
+          "name": "High Alert"
+        }
+      ],
+      "discoveries": [
+        {
+          "name": "Tiefland's Best"
+        }
+      ]
+    },
+    {
+      "name": "Cape Fury",
+      "icon": "Island_Icon_006.webp",
+      "level": {
+        "min": 14,
+        "max": 17
+      },
+      "behemoths": [
+        {
+          "name": "Stormclaw",
+          "guaranteed": true
+        },
+        {
+          "name": "Sahvyt",
+          "guaranteed": false
+        },
+        {
+          "name": "Shadowtouched Koshai",
+          "guaranteed": false
+        },
+        {
+          "name": "Dreadfrost Boreus (Heroic)",
+          "guaranteed": false
+        },
+        {
+          "name": "Deepfrost Skarn",
+          "guaranteed": false
+        },
+        {
+          "name": "Thunderdeep Drask",
+          "guaranteed": false
+        }
+      ],
+      "gatherables": [
+        {
+          "name": "Dashleaf",
+          "rarity": "Common"
+        },
+        {
+          "name": "Ironthistle",
+          "rarity": "Uncommon"
+        },
+        {
+          "name": "Omnistone",
+          "rarity": "Uncommon"
+        }
+      ],
+      "events": [
+        {
+          "name": "Shards of Chaos"
+        },
+        {
+          "name": "Aether Surge"
+        },
+        {
+          "name": "High Alert"
+        },
+        {
+          "name": "The Slumbering Thunder"
+        }
+      ],
+      "discoveries": [
+        {
+          "name": "Big Old SKull"
+        },
+        {
+          "name": "Charr-Kiln of Zaerath"
+        }
+      ]
+    },
+    {
+      "name": "Hades Reach",
+      "icon": "Island_Icon_004.webp",
+      "level": {
+        "min": 15,
+        "max": 18
+      },
+      "behemoths": [
+        {
+          "name": "Hellion",
+          "guaranteed": true
+        },
+        {
+          "name": "Valomyr (Heroic)",
+          "guaranteed": false
+        },
+        {
+          "name": "Razorwing Kharabak (Heroic)",
+          "guaranteed": false
+        },
+        {
+          "name": "Rockfall Skarn (Heroic)",
+          "guaranteed": false
+        },
+        {
+          "name": "Bloodfire Embermane (Heroic)",
+          "guaranteed": false
+        },
+        {
+          "name": "Flameborn Quillshot",
+          "guaranteed": false
+        }
+      ],
+      "gatherables": [
+        {
+          "name": "Omnistone",
+          "rarity": "Common"
+        },
+        {
+          "name": "Skybloom",
+          "rarity": "Uncommon"
+        },
+        {
+          "name": "Phoenix Opal",
+          "rarity": "Uncommon"
+        },
+        {
+          "name": "Ironthistle",
+          "rarity": "Rare"
+        }
+      ],
+      "events": [
+        {
+          "name": "Melting Point"
+        },
+        {
+          "name": "Rock & Roll"
+        },
+        {
+          "name": "Aether Surge"
+        },
+        {
+          "name": "High Alert"
+        }
+      ],
+      "discoveries": [
+        {
+          "name": "Derelict Boneyard"
+        },
+        {
+          "name": "Charr-Kiln of Phaestus"
+        }
+      ]
+    },
+    {
+      "name": "Razorcliff Isle",
+      "icon": "Island_Icon_006.webp",
+      "level": {
+        "min": 16,
+        "max": 19
+      },
+      "behemoths": [
+        {
+          "name": "Rezakiri",
+          "guaranteed": true
+        },
+        {
+          "name": "Frostback Pangar (Heroic)",
+          "guaranteed": false
+        },
+        {
+          "name": "Koshai (Heroic)",
+          "guaranteed": false
+        },
+        {
+          "name": "Winterhorn Skraev (Heroic)",
+          "guaranteed": false
+        },
+        {
+          "name": "Lightbound Boreus",
+          "guaranteed": false
+        },
+        {
+          "name": "Earthshaper Fenroar",
+          "guaranteed": false
+        }
+      ],
+      "gatherables": [
+        {
+          "name": "Skybloom",
+          "rarity": "Common"
+        },
+        {
+          "name": "Slayer's Boon",
+          "rarity": "Common"
+        },
+        {
+          "name": "Dashleaf",
+          "rarity": "Uncommon"
+        },
+        {
+          "name": "Heart Lily",
+          "rarity": "Rare"
+        }
+      ],
+      "events": [
+        {
+          "name": "Swarmageddon"
+        },
+        {
+          "name": "Rock & Roll"
+        },
+        {
+          "name": "Aether Surge"
+        },
+        {
+          "name": "High Alert"
+        }
+      ],
+      "discoveries": [
+        {
+          "name": "Downed Drone"
+        },
+        {
+          "name": "Rezakiri Idol"
+        }
+      ]
+    },
+    {
+      "name": "The Paradox Breaks",
+      "icon": "Island_Icon_Radiant.webp",
+      "level": {
+        "min": 16,
+        "max": 19
+      },
+      "behemoths": [
+        {
+          "name": "Lightbound Koshai",
+          "guaranteed": true
+        },
+        {
+          "name": "Flameborn Rezakiri",
+          "guaranteed": false
+        },
+        {
+          "name": "Phaelanx",
+          "guaranteed": false
+        },
+        {
+          "name": "Rockfall Skarn (Heroic)",
+          "guaranteed": false
+        },
+        {
+          "name": "Valomyr (Heroic)",
+          "guaranteed": false
+        },
+        {
+          "name": "Rezakiri",
+          "guaranteed": false
+        },
+        {
+          "name": "Alyra",
+          "guaranteed": false
+        }
+      ],
+      "gatherables": [
+        {
+          "name": "Slayer's Boon",
+          "rarity": "Common"
+        },
+        {
+          "name": "Omnistone",
+          "rarity": "Common"
+        },
+        {
+          "name": "Phoenix Opal",
+          "rarity": "Uncommon"
+        },
+        {
+          "name": "Ironthistle",
+          "rarity": "Rare"
+        }
+      ],
+      "events": [
+        {
+          "name": "Rock & Roll"
+        },
+        {
+          "name": "Melodic Convergence"
+        }
+      ],
+      "discoveries": [
+        {
+          "name": "Martyr's Reach"
+        },
+        {
+          "name": "The Crystal Method"
+        }
+      ]
+    },
+    {
+      "name": "Twilight Sanctuary",
+      "icon": "Island_Icon_006.webp",
+      "level": {
+        "min": 17,
+        "max": 20
+      },
+      "behemoths": [
+        {
+          "name": "Shrowd",
+          "guaranteed": true
+        },
+        {
+          "name": "Thunderdeep Drask",
+          "guaranteed": false
+        },
+        {
+          "name": "Scorchstone Hellion (Heroic)",
+          "guaranteed": false
+        },
+        {
+          "name": "Tempestborne Stormclaw",
+          "guaranteed": false
+        },
+        {
+          "name": "Riftstalker (Heroic)",
+          "guaranteed": false
+        },
+        {
+          "name": "Phaelanx",
+          "guaranteed": false
+        }
+      ],
+      "gatherables": [
+        {
+          "name": "Wrathwort",
+          "rarity": "Common"
+        },
+        {
+          "name": "Skybloom",
+          "rarity": "Uncommon"
+        },
+        {
+          "name": "Heart Lily",
+          "rarity": "Uncommon"
+        },
+        {
+          "name": "Ironthistle",
+          "rarity": "Rare"
+        },
+        {
+          "name": "Phoenix Opal",
+          "rarity": "Rare"
+        }
+      ],
+      "events": [
+        {
+          "name": "Sudden Death"
+        },
+        {
+          "name": "Aether Surge"
+        },
+        {
+          "name": "Ritual of Blood"
+        }
+      ],
+      "discoveries": [
+        {
+          "name": "Dense Archonite Node"
+        },
+        {
+          "name": "Floating Stone"
+        },
+        {
+          "name": "Unseen Summoning Stone"
+        },
+        {
+          "name": "The Shrouded Raven"
+        }
+      ]
+    },
+    {
+      "name": "The Blazeworks",
+      "icon": "Island_Icon_Radiant.webp",
+      "level": {
+        "min": 21,
+        "max": 24
+      },
+      "behemoths": [
+        {
+          "name": "Koshai (Heroic)",
+          "guaranteed": false
+        },
+        {
+          "name": "Bloodshot Shrowd",
+          "guaranteed": false
+        },
+        {
+          "name": "Scorchstone Hellion (Heroic)",
+          "guaranteed": false
+        },
+        {
+          "name": "Bloodfire Embermane (Heroic)",
+          "guaranteed": false
+        },
+        {
+          "name": "Sporestruck Charrogg",
+          "guaranteed": false
+        },
+        {
+          "name": "Razorwing Kharabak (Heroic)",
+          "guaranteed": false
+        },
+        {
+          "name": "Phaelanx",
+          "guaranteed": false
+        }
+      ],
+      "gatherables": [
+        {
+          "name": "Ironthistle",
+          "rarity": "Common"
+        },
+        {
+          "name": "Phoenix Opal",
+          "rarity": "Common"
+        },
+        {
+          "name": "Dashleaf",
+          "rarity": "Uncommon"
+        },
+        {
+          "name": "Wrathwort",
+          "rarity": "Rare"
+        },
+        {
+          "name": "Omnistone",
+          "rarity": "Rare"
+        }
+      ],
+      "events": [
+        {
+          "name": "Poison Personality"
+        },
+        {
+          "name": "Infernal Gaze"
+        },
+        {
+          "name": "The Phaelanx Forge"
+        }
+      ],
+      "discoveries": [
+        {
+          "name": "Abandoned Research Station"
+        },
+        {
+          "name": "Ostian Enforcers"
+        },
+        {
+          "name": "Disturbing Specimen"
+        },
+        {
+          "name": "Aether Extractor"
+        },
+        {
+          "name": "Supply Shipment"
+        }
+      ]
+    }
+]
