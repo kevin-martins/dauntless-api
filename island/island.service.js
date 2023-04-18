@@ -8,25 +8,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.IslandService = void 0;
 const common_1 = require("@nestjs/common");
-const island_1 = require("../constant/island");
+const islands = require("../constant/island.json");
 let IslandService = class IslandService {
     constructor() {
-        this.islands = island_1.islands;
+        this.islands = islands;
     }
     getAllIslands() {
         return this.islands;
     }
-    getIslandNamesByBehemothName(name) {
-        return this.islands
-            .filter((island) => {
+    getIslandsByBehemothName(name) {
+        return this.islands.filter((island) => {
             const hasBehemoth = island.behemoths.some((behemoth) => {
                 return behemoth.name.toLowerCase().includes(name.toLowerCase());
             });
             if (hasBehemoth) {
                 return island;
             }
-        })
-            .map((el) => el.name);
+        });
     }
     getIslandsByLevel(min, max) {
         if (Number.isNaN(min) && Number.isNaN(max)) {
@@ -50,6 +48,12 @@ let IslandService = class IslandService {
             }
             return island.level.max <= max && island.level.min >= min;
         });
+    }
+    getIslandNamesByGatherable(name, rarity) {
+        return {
+            name,
+            rarity,
+        };
     }
 };
 IslandService = __decorate([

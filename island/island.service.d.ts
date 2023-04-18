@@ -1,3 +1,4 @@
+import { GatherableRarity } from "src/gatherable/dto/gatherable.dto";
 export declare class IslandService {
     private islands;
     getAllIslands(): {
@@ -13,18 +14,37 @@ export declare class IslandService {
         }[];
         gatherables: {
             name: string;
-            type: string;
             rarity: string;
         }[];
         events: {
             name: string;
-            description: string;
         }[];
         discoveries: {
             name: string;
         }[];
     }[];
-    getIslandNamesByBehemothName(name: string): string[];
+    getIslandsByBehemothName(name: string): {
+        name: string;
+        icon: string;
+        level: {
+            min: number;
+            max: number;
+        };
+        behemoths: {
+            name: string;
+            guaranteed: boolean;
+        }[];
+        gatherables: {
+            name: string;
+            rarity: string;
+        }[];
+        events: {
+            name: string;
+        }[];
+        discoveries: {
+            name: string;
+        }[];
+    }[];
     getIslandsByLevel(min: number, max: number): {
         name: string;
         icon: string;
@@ -38,15 +58,17 @@ export declare class IslandService {
         }[];
         gatherables: {
             name: string;
-            type: string;
             rarity: string;
         }[];
         events: {
             name: string;
-            description: string;
         }[];
         discoveries: {
             name: string;
         }[];
     }[];
+    getIslandNamesByGatherable(name: string, rarity: GatherableRarity): {
+        name: string;
+        rarity: GatherableRarity;
+    };
 }

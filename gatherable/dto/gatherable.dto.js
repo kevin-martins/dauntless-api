@@ -13,14 +13,14 @@ exports.GatherableDto = exports.GatherableRarity = exports.GatherableType = void
 const swagger_1 = require("@nestjs/swagger");
 var GatherableType;
 (function (GatherableType) {
-    GatherableType[GatherableType["Flower"] = 0] = "Flower";
-    GatherableType[GatherableType["Ore"] = 1] = "Ore";
+    GatherableType["Flower"] = "Flower";
+    GatherableType["Ore"] = "Ore";
 })(GatherableType = exports.GatherableType || (exports.GatherableType = {}));
 var GatherableRarity;
 (function (GatherableRarity) {
-    GatherableRarity[GatherableRarity["Common"] = 0] = "Common";
-    GatherableRarity[GatherableRarity["Uncommon"] = 1] = "Uncommon";
-    GatherableRarity[GatherableRarity["Rare"] = 2] = "Rare";
+    GatherableRarity["Common"] = "Common";
+    GatherableRarity["Uncommon"] = "Uncommon";
+    GatherableRarity["Rare"] = "Rare";
 })(GatherableRarity = exports.GatherableRarity || (exports.GatherableRarity = {}));
 class GatherableDto {
 }
@@ -34,13 +34,13 @@ __decorate([
     (0, swagger_1.ApiProperty)({
         enum: ["Flower", "Ore"],
     }),
-    __metadata("design:type", Number)
+    __metadata("design:type", String)
 ], GatherableDto.prototype, "type", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)({
         enum: ["Common", "Uncommon", "Rare"],
     }),
-    __metadata("design:type", Number)
+    __metadata("design:type", String)
 ], GatherableDto.prototype, "rarity", void 0);
 exports.GatherableDto = GatherableDto;
 //# sourceMappingURL=gatherable.dto.js.map

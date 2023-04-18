@@ -9,35 +9,25 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.AuthController = void 0;
+exports.GatherableService = void 0;
 const common_1 = require("@nestjs/common");
-const auth_service_1 = require("./auth.service");
-let AuthController = class AuthController {
-    constructor(authService) {
-        this.authService = authService;
+const gatherables = require("../constant/gatherables.json");
+let GatherableService = class GatherableService {
+    constructor() {
+        this.gatherables = gatherables;
     }
-    singup() {
-        return this.authService.singup();
-    }
-    singin() {
-        return this.authService.singin();
+    getAllGatherables() {
+        return this.gatherables;
     }
 };
 __decorate([
-    (0, common_1.Post)("singup"),
+    (0, common_1.Get)(),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", []),
     __metadata("design:returntype", void 0)
-], AuthController.prototype, "singup", null);
-__decorate([
-    (0, common_1.Post)("singin"),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", []),
-    __metadata("design:returntype", void 0)
-], AuthController.prototype, "singin", null);
-AuthController = __decorate([
-    (0, common_1.Controller)("auth"),
-    __metadata("design:paramtypes", [auth_service_1.AuthService])
-], AuthController);
-exports.AuthController = AuthController;
-//# sourceMappingURL=auth.controller.js.map
+], GatherableService.prototype, "getAllGatherables", null);
+GatherableService = __decorate([
+    (0, common_1.Injectable)()
+], GatherableService);
+exports.GatherableService = GatherableService;
+//# sourceMappingURL=gatherable.service.js.map

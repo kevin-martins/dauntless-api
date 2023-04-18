@@ -6,12 +6,17 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.DauntlessModule = void 0;
+exports.CraftModule = void 0;
 const common_1 = require("@nestjs/common");
-let DauntlessModule = class DauntlessModule {
+const craft_service_1 = require("./craft.service");
+const craft_controller_1 = require("./craft.controller");
+let CraftModule = class CraftModule {
 };
-DauntlessModule = __decorate([
-    (0, common_1.Module)({})
-], DauntlessModule);
-exports.DauntlessModule = DauntlessModule;
-//# sourceMappingURL=dauntless.module.js.map
+CraftModule = __decorate([
+    (0, common_1.Module)({
+        providers: [craft_service_1.CraftService],
+        controllers: [craft_controller_1.CraftController]
+    })
+], CraftModule);
+exports.CraftModule = CraftModule;
+//# sourceMappingURL=craft.module.js.map

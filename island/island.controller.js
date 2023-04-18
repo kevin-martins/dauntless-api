@@ -16,6 +16,8 @@ exports.IslandController = void 0;
 const common_1 = require("@nestjs/common");
 const decorators_1 = require("@nestjs/common/decorators");
 const island_service_1 = require("./island.service");
+const swagger_1 = require("@nestjs/swagger");
+const gatherable_dto_1 = require("../gatherable/dto/gatherable.dto");
 let IslandController = class IslandController {
     constructor(islandService) {
         this.islandService = islandService;
@@ -23,14 +25,14 @@ let IslandController = class IslandController {
     getAllIslands() {
         return this.islandService.getAllIslands();
     }
-    getIslandNamesByBehemothName(name) {
-        return this.islandService.getIslandNamesByBehemothName(name);
+    getIslandsByBehemothName(name) {
+        return this.islandService.getIslandsByBehemothName(name);
     }
-    getIslandsByLevel(min, max) {
+    getIslandsByLevel(min = "1", max = "24") {
         return this.islandService.getIslandsByLevel(parseInt(min), parseInt(max));
     }
-    getIslandNamesByGatherable(name, type, rarity) {
-        return { name, type, rarity };
+    getIslandNamesByGatherable(name, rarity) {
+        return this.islandService.getIslandNamesByGatherable(name, rarity);
     }
 };
 __decorate([
@@ -41,26 +43,31 @@ __decorate([
 ], IslandController.prototype, "getAllIslands", null);
 __decorate([
     (0, decorators_1.Get)("behemoth"),
+    (0, swagger_1.ApiQuery)({ name: "name", type: String, required: true }),
     __param(0, (0, decorators_1.Query)("name")),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [String]),
     __metadata("design:returntype", void 0)
-], IslandController.prototype, "getIslandNamesByBehemothName", null);
+], IslandController.prototype, "getIslandsByBehemothName", null);
 __decorate([
     (0, decorators_1.Get)("level"),
+    (0, swagger_1.ApiQuery)({ name: "min", type: String, required: false }),
+    (0, swagger_1.ApiQuery)({ name: "max", type: String, required: false }),
     __param(0, (0, decorators_1.Query)("min")),
     __param(1, (0, decorators_1.Query)("max")),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [String, String]),
+    __metadata("design:paramtypes", [Object, Object]),
     __metadata("design:returntype", void 0)
 ], IslandController.prototype, "getIslandsByLevel", null);
 __decorate([
     (0, decorators_1.Get)("gatherable"),
+    (0, swagger_1.ApiQuery)({ name: "name", type: String, required: false }),
+    (0, swagger_1.ApiQuery)({ name: "type", enum: gatherable_dto_1.GatherableType, required: false }),
+    (0, swagger_1.ApiQuery)({ name: "rarity", enum: gatherable_dto_1.GatherableRarity, required: false }),
     __param(0, (0, decorators_1.Query)("name")),
-    __param(1, (0, decorators_1.Query)("type")),
-    __param(2, (0, decorators_1.Query)("rarity")),
+    __param(1, (0, decorators_1.Query)("rarity")),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [String, String, String]),
+    __metadata("design:paramtypes", [String, String]),
     __metadata("design:returntype", void 0)
 ], IslandController.prototype, "getIslandNamesByGatherable", null);
 IslandController = __decorate([

@@ -6,18 +6,17 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.AuthService = void 0;
+exports.GatherableModule = void 0;
 const common_1 = require("@nestjs/common");
-let AuthService = class AuthService {
-    singup() {
-        return { msg: "Singned up" };
-    }
-    singin() {
-        return { msg: "Singned in" };
-    }
+const gatherable_service_1 = require("./gatherable.service");
+const gatherable_controller_1 = require("./gatherable.controller");
+let GatherableModule = class GatherableModule {
 };
-AuthService = __decorate([
-    (0, common_1.Injectable)({})
-], AuthService);
-exports.AuthService = AuthService;
-//# sourceMappingURL=auth.service.js.map
+GatherableModule = __decorate([
+    (0, common_1.Module)({
+        controllers: [gatherable_controller_1.GatherableController],
+        providers: [gatherable_service_1.GatherableService],
+    })
+], GatherableModule);
+exports.GatherableModule = GatherableModule;
+//# sourceMappingURL=gatherable.module.js.map

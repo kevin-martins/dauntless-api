@@ -1,11 +1,11 @@
 export declare enum GatherableType {
-    Flower = 0,
-    Ore = 1
+    Flower = "Flower",
+    Ore = "Ore"
 }
 export declare enum GatherableRarity {
-    Common = 0,
-    Uncommon = 1,
-    Rare = 2
+    Common = "Common",
+    Uncommon = "Uncommon",
+    Rare = "Rare"
 }
 export declare class GatherableDto {
     name: string;

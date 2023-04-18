@@ -8,14 +8,20 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.AppModule = void 0;
 const common_1 = require("@nestjs/common");
-const auth_module_1 = require("./auth/auth.module");
-const user_module_1 = require("./user/user.module");
+const craft_module_1 = require("./craft/craft.module");
 const island_module_1 = require("./island/island.module");
+const gatherable_module_1 = require("./gatherable/gatherable.module");
+const island_service_1 = require("./island/island.service");
+const gatherable_service_1 = require("./gatherable/gatherable.service");
+const island_controller_1 = require("./island/island.controller");
+const gatherable_controller_1 = require("./gatherable/gatherable.controller");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
     (0, common_1.Module)({
-        imports: [auth_module_1.AuthModule, user_module_1.UserModule, island_module_1.IslandModule],
+        imports: [island_module_1.IslandModule, gatherable_module_1.GatherableModule, craft_module_1.CraftModule],
+        controllers: [island_controller_1.IslandController, gatherable_controller_1.GatherableController],
+        providers: [island_service_1.IslandService, gatherable_service_1.GatherableService],
     })
 ], AppModule);
 exports.AppModule = AppModule;
