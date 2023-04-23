@@ -1,8 +1,6 @@
 import { Controller } from "@nestjs/common";
 import { Get } from "@nestjs/common/decorators";
-import { ApiQuery } from "@nestjs/swagger";
 import { GatherableService } from "./gatherable.service";
-import { GatherableRarity } from "./dto/gatherable.dto";
 
 @Controller("gatherable")
 export class GatherableController {

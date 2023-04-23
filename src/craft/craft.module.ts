@@ -1,9 +1,9 @@
-import { Module } from '@nestjs/common';
-import { CraftService } from './craft.service';
-import { CraftController } from './craft.controller';
+import { Module } from "@nestjs/common";
+import { CraftService } from "./craft.service";
+import { CraftController } from "./craft.controller";
 
 @Module({
   providers: [CraftService],
-  controllers: [CraftController]
+  controllers: [CraftController],
 })
 export class CraftModule {}
